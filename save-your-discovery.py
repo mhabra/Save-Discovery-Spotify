@@ -71,7 +71,7 @@ def main():
         print('Created new playlist and added this weeks Discover Weekly Songs')
     elif token and (len(sys.argv) == 2):
         sp = spotipy.Spotify(auth=token)
-        results = sp.user_playlist('spotify','37i9dQZEVXcCdL9eJJ6sDF')
+        results = sp.user_playlist('spotify','')
         tracks = results['tracks']
         track_ids = get_track_ids(tracks)
         print('Created file with this weeks Discover Weekly Songs')
