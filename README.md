@@ -1,4 +1,4 @@
-# Save Your Discovery
+# Save Your Discovery (Spotify)
 ## A helpful Python tool
 ---
 
